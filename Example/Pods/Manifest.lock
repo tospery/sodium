@@ -1,0 +1,16 @@
+PODS:
+  - sodium (0.1.0)
+
+DEPENDENCIES:
+  - sodium (from `../`)
+
+EXTERNAL SOURCES:
+  sodium:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sodium: 50fe0350db610859db5fc08a3958232a20dc153b
+
+PODFILE CHECKSUM: f6853d6198463051d339a357b1024f10b53d8736
+
+COCOAPODS: 1.9.1

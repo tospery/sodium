@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAE7A8C40E97C11B97689520940D32A /* Pods-sodium_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D6D77972441232CF295F00364433CA /* Pods-sodium_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B0F3A0722A770E4EFA0564EA42556E /* sodium-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAFAF297C4708A17344D40AF51B306A /* sodium-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31CD147FC6FF729C5CFEFCCF58CCA3B6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC4060B7A97EAC56B54AFD40AB0D51 /* ReplaceMe.m */; };
+		3BE06192142A9BA144DFF7F53A7C3E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5FA4504889E1A350D2854F5F8E518E85 /* Pods-sodium_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E99BACC7AC6E47C76E1A70456B55AB18 /* Pods-sodium_Tests-dummy.m */; };
+		6E1B9DC36A14A438AF6B691D476D12B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		726C757999F14D8E7FE955F5749ACAF4 /* Pods-sodium_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 823ED4585F83F9DEC899CB273977E206 /* Pods-sodium_Example-dummy.m */; };
+		B1D7F1D5C89F2582BEF0B655AB405453 /* Pods-sodium_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 937767DDA1003E16F595D66D1DC59543 /* Pods-sodium_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D1330EAE0B639AA5CAC6411E34AD28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D0E6C3FDA0490F7DCCEAC3AB0A240F4A /* sodium-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E3E4FB15197E2D8D1351767143BE7 /* sodium-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37173D5CDC593A7F8C9B10B6826D9B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CFDBF45F2AA8B3405EAFCBCD80941C;
+			remoteInfo = sodium;
+		};
+		9C0B021D583D6133227B1F80DB644955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE26FCCF459EF0CCA683BA37565CBBD6;
+			remoteInfo = "Pods-sodium_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D927A86E0F8A0F1A59A01C5E6173CAE /* Pods-sodium_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F940BC63A42B886FE9B7835120074A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		134EBBA7531BE87C4B009DDA2FC77971 /* sodium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sodium.debug.xcconfig; sourceTree = "<group>"; };
+		1BAFAF297C4708A17344D40AF51B306A /* sodium-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sodium-umbrella.h"; sourceTree = "<group>"; };
+		23D6D77972441232CF295F00364433CA /* Pods-sodium_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sodium_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2DF8E44DEDF1EAB77C7373072A313C35 /* Pods-sodium_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A8649546ACC287F26641BA24F29009E /* Pods-sodium_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sodium_Tests.modulemap"; sourceTree = "<group>"; };
+		442B54047F4D0C334AB6FE91D51A853E /* Pods-sodium_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4869C0C515BB177B80855E95213975F9 /* sodium.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = sodium.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AB9B12AF5CCD7CA736EC12F8C2BD2E8 /* sodium.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = sodium.modulemap; sourceTree = "<group>"; };
+		5FFC4060B7A97EAC56B54AFD40AB0D51 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = sodium/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		70EE1E6DD388819E53E98559C8868FAB /* Pods_sodium_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sodium_Tests.framework; path = "Pods-sodium_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		789BDA351E9150D13DEB9E564BD16484 /* Pods-sodium_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sodium_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E0FBB6F42201D4746C3E3EEB51ED5E2 /* sodium-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "sodium-Info.plist"; sourceTree = "<group>"; };
+		823ED4585F83F9DEC899CB273977E206 /* Pods-sodium_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sodium_Example-dummy.m"; sourceTree = "<group>"; };
+		83634E8213B9E1B4C411D034727ABA49 /* Pods-sodium_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90DB00EABA8692C7D57F2021281196D4 /* Pods-sodium_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		937767DDA1003E16F595D66D1DC59543 /* Pods-sodium_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sodium_Example-umbrella.h"; sourceTree = "<group>"; };
+		979E3E4FB15197E2D8D1351767143BE7 /* sodium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sodium-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A022A4E4B0AB94AF33627579DF8B40C4 /* Pods-sodium_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium_Tests-Info.plist"; sourceTree = "<group>"; };
+		A7B0AFD300CDDE00F0BFA7073ED5E955 /* Pods_sodium_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sodium_Example.framework; path = "Pods-sodium_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA02424AC7DB5D40C4052F4D4F856A3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B45FF95FE505A39875D87B106D2C8FC1 /* Pods-sodium_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sodium_Example.modulemap"; sourceTree = "<group>"; };
+		BBC4BC4D072DFB56DF127840FD8E4832 /* sodium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sodium.release.xcconfig; sourceTree = "<group>"; };
+		C7AE0C4FB8956A84CD3275A2FE14D961 /* Pods-sodium_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sodium_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D063A6FA7B1DA11EAEF97910BCE14CC3 /* Pods-sodium_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4DA1A515F86344AD21D3EE55378139 /* Pods-sodium_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sodium_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E99BACC7AC6E47C76E1A70456B55AB18 /* Pods-sodium_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sodium_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBF129A0F7635BF573B4F0BD83A2B4FC /* sodium-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sodium-prefix.pch"; sourceTree = "<group>"; };
+		ECBD2EFC551CB65AFC76D08E9BA3D901 /* Pods-sodium_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium_Example-Info.plist"; sourceTree = "<group>"; };
+		FF0C595DC53B2F8B96817C7AD8C4066F /* sodium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sodium.framework; path = sodium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4383B4C895B40E7974C63FD15EF56B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE06192142A9BA144DFF7F53A7C3E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD4F0CAD2F9E7FF3BE3CA7A88ED2234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1B9DC36A14A438AF6B691D476D12B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14E78FB92D21F48A5DEBD2B140081A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D1330EAE0B639AA5CAC6411E34AD28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173F449AC6DF8CFAF9349623C9ECC3D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A7C903CCB8D4FDA6049EFD4B06ED37 /* sodium */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		32A7C903CCB8D4FDA6049EFD4B06ED37 /* sodium */ = {
+			isa = PBXGroup;
+			children = (
+				5FFC4060B7A97EAC56B54AFD40AB0D51 /* ReplaceMe.m */,
+				EBD77538D5393518D987AF1E299BE29B /* Pod */,
+				D9AF5D4A3F211A8EB74BF5455E1645F2 /* Support Files */,
+			);
+			name = sodium;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		38EB81206C81D4F613C5EF9AEEE25C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0AFD300CDDE00F0BFA7073ED5E955 /* Pods_sodium_Example.framework */,
+				70EE1E6DD388819E53E98559C8868FAB /* Pods_sodium_Tests.framework */,
+				FF0C595DC53B2F8B96817C7AD8C4066F /* sodium.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51CE078E27A8F68F84798AD2E4540FDD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B414EEFA2FE09AD12FDDAEB2D15D374E /* Pods-sodium_Example */,
+				A6341BA8A8E0D418D80D3D3D3C063CB6 /* Pods-sodium_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6341BA8A8E0D418D80D3D3D3C063CB6 /* Pods-sodium_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3A8649546ACC287F26641BA24F29009E /* Pods-sodium_Tests.modulemap */,
+				C7AE0C4FB8956A84CD3275A2FE14D961 /* Pods-sodium_Tests-acknowledgements.markdown */,
+				90DB00EABA8692C7D57F2021281196D4 /* Pods-sodium_Tests-acknowledgements.plist */,
+				E99BACC7AC6E47C76E1A70456B55AB18 /* Pods-sodium_Tests-dummy.m */,
+				A022A4E4B0AB94AF33627579DF8B40C4 /* Pods-sodium_Tests-Info.plist */,
+				23D6D77972441232CF295F00364433CA /* Pods-sodium_Tests-umbrella.h */,
+				D063A6FA7B1DA11EAEF97910BCE14CC3 /* Pods-sodium_Tests.debug.xcconfig */,
+				442B54047F4D0C334AB6FE91D51A853E /* Pods-sodium_Tests.release.xcconfig */,
+			);
+			name = "Pods-sodium_Tests";
+			path = "Target Support Files/Pods-sodium_Tests";
+			sourceTree = "<group>";
+		};
+		B414EEFA2FE09AD12FDDAEB2D15D374E /* Pods-sodium_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B45FF95FE505A39875D87B106D2C8FC1 /* Pods-sodium_Example.modulemap */,
+				789BDA351E9150D13DEB9E564BD16484 /* Pods-sodium_Example-acknowledgements.markdown */,
+				0D927A86E0F8A0F1A59A01C5E6173CAE /* Pods-sodium_Example-acknowledgements.plist */,
+				823ED4585F83F9DEC899CB273977E206 /* Pods-sodium_Example-dummy.m */,
+				DE4DA1A515F86344AD21D3EE55378139 /* Pods-sodium_Example-frameworks.sh */,
+				ECBD2EFC551CB65AFC76D08E9BA3D901 /* Pods-sodium_Example-Info.plist */,
+				937767DDA1003E16F595D66D1DC59543 /* Pods-sodium_Example-umbrella.h */,
+				83634E8213B9E1B4C411D034727ABA49 /* Pods-sodium_Example.debug.xcconfig */,
+				2DF8E44DEDF1EAB77C7373072A313C35 /* Pods-sodium_Example.release.xcconfig */,
+			);
+			name = "Pods-sodium_Example";
+			path = "Target Support Files/Pods-sodium_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				173F449AC6DF8CFAF9349623C9ECC3D5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				38EB81206C81D4F613C5EF9AEEE25C42 /* Products */,
+				51CE078E27A8F68F84798AD2E4540FDD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9AF5D4A3F211A8EB74BF5455E1645F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB9B12AF5CCD7CA736EC12F8C2BD2E8 /* sodium.modulemap */,
+				979E3E4FB15197E2D8D1351767143BE7 /* sodium-dummy.m */,
+				7E0FBB6F42201D4746C3E3EEB51ED5E2 /* sodium-Info.plist */,
+				EBF129A0F7635BF573B4F0BD83A2B4FC /* sodium-prefix.pch */,
+				1BAFAF297C4708A17344D40AF51B306A /* sodium-umbrella.h */,
+				134EBBA7531BE87C4B009DDA2FC77971 /* sodium.debug.xcconfig */,
+				BBC4BC4D072DFB56DF127840FD8E4832 /* sodium.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/sodium";
+			sourceTree = "<group>";
+		};
+		EBD77538D5393518D987AF1E299BE29B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA02424AC7DB5D40C4052F4D4F856A3D /* LICENSE */,
+				0F940BC63A42B886FE9B7835120074A2 /* README.md */,
+				4869C0C515BB177B80855E95213975F9 /* sodium.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43BFA4CF95C286E5C4F81C685A655901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0F3A0722A770E4EFA0564EA42556E /* sodium-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAD17147C18E7E6A3B1529B311D9437 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D7F1D5C89F2582BEF0B655AB405453 /* Pods-sodium_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19772BC944F4A951844BDEEA0321419 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAE7A8C40E97C11B97689520940D32A /* Pods-sodium_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50CFDBF45F2AA8B3405EAFCBCD80941C /* sodium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E533AB5F9C3312A9E10378E55283274 /* Build configuration list for PBXNativeTarget "sodium" */;
+			buildPhases = (
+				43BFA4CF95C286E5C4F81C685A655901 /* Headers */,
+				5317E37C332AE45608012B687A5FD3B9 /* Sources */,
+				4AD4F0CAD2F9E7FF3BE3CA7A88ED2234 /* Frameworks */,
+				ABCED5E5781BA2511AAA3A4C9F0E72A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sodium;
+			productName = sodium;
+			productReference = FF0C595DC53B2F8B96817C7AD8C4066F /* sodium.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		712DD7C5AA66C83066EDF56C3D10D6E7 /* Pods-sodium_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B0183F26987CBDA72611AD62D2216A /* Build configuration list for PBXNativeTarget "Pods-sodium_Tests" */;
+			buildPhases = (
+				E19772BC944F4A951844BDEEA0321419 /* Headers */,
+				64F55A1804526903B33DEF87949FCF23 /* Sources */,
+				E14E78FB92D21F48A5DEBD2B140081A7 /* Frameworks */,
+				10FFAAE4A794280490DF903E3516FA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BCC0A9544DE110A71EEE89135362CF /* PBXTargetDependency */,
+			);
+			name = "Pods-sodium_Tests";
+			productName = "Pods-sodium_Tests";
+			productReference = 70EE1E6DD388819E53E98559C8868FAB /* Pods_sodium_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE26FCCF459EF0CCA683BA37565CBBD6 /* Pods-sodium_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A315F818FA8A01EF4809573975A66471 /* Build configuration list for PBXNativeTarget "Pods-sodium_Example" */;
+			buildPhases = (
+				9EAD17147C18E7E6A3B1529B311D9437 /* Headers */,
+				1DD85E20A100D5B7CADF88592FB34C1D /* Sources */,
+				4383B4C895B40E7974C63FD15EF56B86 /* Frameworks */,
+				80B24C821DAE3E2A11A660E58E07502B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035250E454374C55354CA429CB97CA4F /* PBXTargetDependency */,
+			);
+			name = "Pods-sodium_Example";
+			productName = "Pods-sodium_Example";
+			productReference = A7B0AFD300CDDE00F0BFA7073ED5E955 /* Pods_sodium_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 38EB81206C81D4F613C5EF9AEEE25C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE26FCCF459EF0CCA683BA37565CBBD6 /* Pods-sodium_Example */,
+				712DD7C5AA66C83066EDF56C3D10D6E7 /* Pods-sodium_Tests */,
+				50CFDBF45F2AA8B3405EAFCBCD80941C /* sodium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FFAAE4A794280490DF903E3516FA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B24C821DAE3E2A11A660E58E07502B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCED5E5781BA2511AAA3A4C9F0E72A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD85E20A100D5B7CADF88592FB34C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726C757999F14D8E7FE955F5749ACAF4 /* Pods-sodium_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5317E37C332AE45608012B687A5FD3B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CD147FC6FF729C5CFEFCCF58CCA3B6 /* ReplaceMe.m in Sources */,
+				D0E6C3FDA0490F7DCCEAC3AB0A240F4A /* sodium-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F55A1804526903B33DEF87949FCF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA4504889E1A350D2854F5F8E518E85 /* Pods-sodium_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035250E454374C55354CA429CB97CA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sodium;
+			target = 50CFDBF45F2AA8B3405EAFCBCD80941C /* sodium */;
+			targetProxy = 37173D5CDC593A7F8C9B10B6826D9B3C /* PBXContainerItemProxy */;
+		};
+		F9BCC0A9544DE110A71EEE89135362CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-sodium_Example";
+			target = EE26FCCF459EF0CCA683BA37565CBBD6 /* Pods-sodium_Example */;
+			targetProxy = 9C0B021D583D6133227B1F80DB644955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A85722C6960D87368DB8B0E5AE8BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D063A6FA7B1DA11EAEF97910BCE14CC3 /* Pods-sodium_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium_Tests/Pods-sodium_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium_Tests/Pods-sodium_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		198681680AECABAED3895B94A834A804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF8E44DEDF1EAB77C7373072A313C35 /* Pods-sodium_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium_Example/Pods-sodium_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium_Example/Pods-sodium_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2446D9E291CDA1C08016558AA8720BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83634E8213B9E1B4C411D034727ABA49 /* Pods-sodium_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium_Example/Pods-sodium_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium_Example/Pods-sodium_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5CF65F1A43494119543619CD0BC86BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134EBBA7531BE87C4B009DDA2FC77971 /* sodium.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sodium/sodium-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sodium/sodium-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sodium/sodium.modulemap";
+				PRODUCT_MODULE_NAME = sodium;
+				PRODUCT_NAME = sodium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F33A65BAA3BFA2DDD8F85A6034A721B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC4BC4D072DFB56DF127840FD8E4832 /* sodium.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/sodium/sodium-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sodium/sodium-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sodium/sodium.modulemap";
+				PRODUCT_MODULE_NAME = sodium;
+				PRODUCT_NAME = sodium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D6226454531C67319E173C62CCAD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442B54047F4D0C334AB6FE91D51A853E /* Pods-sodium_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium_Tests/Pods-sodium_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium_Tests/Pods-sodium_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E533AB5F9C3312A9E10378E55283274 /* Build configuration list for PBXNativeTarget "sodium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF65F1A43494119543619CD0BC86BFF /* Debug */,
+				8F33A65BAA3BFA2DDD8F85A6034A721B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A315F818FA8A01EF4809573975A66471 /* Build configuration list for PBXNativeTarget "Pods-sodium_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2446D9E291CDA1C08016558AA8720BBE /* Debug */,
+				198681680AECABAED3895B94A834A804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B0183F26987CBDA72611AD62D2216A /* Build configuration list for PBXNativeTarget "Pods-sodium_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A85722C6960D87368DB8B0E5AE8BBB /* Debug */,
+				E1D6226454531C67319E173C62CCAD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

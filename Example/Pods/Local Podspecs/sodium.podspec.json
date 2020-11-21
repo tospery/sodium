@@ -1,0 +1,22 @@
+{
+  "name": "sodium",
+  "version": "0.1.0",
+  "summary": "A short description of sodium.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tospery/sodium",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tospery": "tospery@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tospery/sodium.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sodium/Classes/**/*"
+}
